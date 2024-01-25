@@ -4,20 +4,26 @@
 
 ## Example using no arguments
 
-<img width="501" alt="Screenshot 2024-01-24 at 10 06 10 PM" src="https://github.com/aran102504/cse15l-lab-reports/assets/157055098/30cdb31a-70e2-48e8-a270-c0bbfa1c68f4">
 
+<img width="386" alt="Screenshot 2024-01-25 at 11 12 46 AM" src="https://github.com/aran102504/cse15l-lab-reports/assets/157055098/7d2bba3f-16a5-4e89-944a-8f7ebe6b474f">
 
+When the command was run, the working directory was the home directory as indicated by the `~` symbol with nothing following. Since I ran it with no arguments, there is nothing after the `cd` in the command line. The `cd` command changes directories, but since there was no argument, the directory did not change and I remained in the home directory. This is not an error as I did not provide any arguments, so I remained in the same directory as when the command was run.
 
 ## Using with a path to a directory as an argument
+<img width="408" alt="Screenshot 2024-01-25 at 11 14 29 AM" src="https://github.com/aran102504/cse15l-lab-reports/assets/157055098/71e82c7d-a2a3-4a99-8658-10e358af289d">
 
-<img width="389" alt="Screenshot 2024-01-24 at 10 11 46 PM" src="https://github.com/aran102504/cse15l-lab-reports/assets/157055098/a576a619-dcdc-4316-8baf-45b2dd3a11f8">
+When the command was run, the working directory was the home directory as indicated by the `~` symbol with nothing following. The argument I used was the `lecture1` directory. Since I used the `cd` command to change directories, after running the command I changed directories into the `lecture1` directory. This is not an error as the expected outcome of the `cd` command is to change directories into the one used as an argument.
+
+
 
 
 ##  Using with a path to a file as an argument
 
 <img width="482" alt="Screenshot 2024-01-24 at 10 12 23 PM" src="https://github.com/aran102504/cse15l-lab-reports/assets/157055098/d3a8f2f6-2266-4be9-bbc3-2fa9b95e25c8">
 
-## Command: `ls`
+When the command was run, the working directory I had was the `lecture` directory, as indicated with the text after the `~` symbol. My output after running the command with the text file `es-mx.txt` was a message saying that no such directory or file was found. 
+
+## Command: `ls` 
 
 ## Example using no arguments
 
