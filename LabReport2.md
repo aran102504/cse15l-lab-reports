@@ -20,7 +20,21 @@ In this example, the handler method is called, as the number of arguments in the
 
 ## Part 2:
 
+Screenshot of absolute path to private key:
 
+<img width="360" alt="private key ss" src="https://github.com/aran102504/cse15l-lab-reports/assets/157055098/9173947b-c525-4e45-bdda-7db40890755c">
+
+
+
+Screenshot of absolute path to public key:
+
+<img width="614" alt="publickeyss" src="https://github.com/aran102504/cse15l-lab-reports/assets/157055098/67a42c86-56e0-484e-943a-41a0d7da791b">
+
+
+
+Screenshot of terminal interaction where I am not asked for a password:
+
+<img width="937" alt="Terminal interaction" src="https://github.com/aran102504/cse15l-lab-reports/assets/157055098/2e9cc364-349f-45ef-8806-2f29cec984d6">
 
 ## Part 3:
 In Week 3 lab, something new I learned were the commands `scp` and `mkdir`. After looking their functions up on Google because the instructions for the lab said to, I learned that the `scp` command allows for the secure copy of files and directories between either the remote host and the local host, or two remote hosts. When looking up the `mkdir` command, I learned that `mkdir` stands fore "make directory". Using this command in the command line, users can create a new directory, subdirectory, or multiple directories at once. These are both commands I have never seen before.
