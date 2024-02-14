@@ -61,8 +61,8 @@ entire array would be swapping values twice, which effectively does nothing. I a
 reassign the latter half of the array with the original value efffectively.
 
 
-# Part 2
-## `find` command: `find` by file type 
+# Part 2: the `find` command
+##`find` by file type 
 Example 1:
 ```
 angelaran@Angelas-MacBook-Pro-3 docsearch-1 % find technical/ -type d
@@ -78,7 +78,7 @@ technical//plos
 technical//biomed
 technical//911report
 ```
-In this example, I utilize the find `-type` command in `technical` to return content of type `d` which means directory. This command returns all of the directories within `technical`. This is useful to see all of the directories within `./technical`
+In this example, I utilize the find `-type` command in the `technical` directory to return content of type `d` which means directory. This command returns all of the directories within `./technical`. This is useful to see all of the directories within a given directory.
 
 Example 2:
 ```
@@ -88,7 +88,7 @@ technical/government/Alcohol_Problems//Session3-PDF.txt
 technical/government/Alcohol_Problems//DraftRecom-PDF.txt
 technical/government/Alcohol_Problems//Session4-PDF.txt
 ```
-In this example, I utilize the find `-type` command in `technical` to return content of type `f` which means file. This command returns all of the files within `technical/government/Alcohol_Problems`. This is useful for a complete list of files within the specified path, in this case, `technical/government/Alcohol_Problems`.
+In this example, I utilize the find `-type` command in the `technical` directory to return content of type `f` which means file. This command returns all of the files within `technical/government/Alcohol_Problems`. This is useful for a complete list of files within the specified path, in this case, `technical/government/Alcohol_Problems`.
 
 Source: https://tecadmin.net/linux-find-command-with-examples/
 
@@ -103,7 +103,7 @@ technical/government/Alcohol_Problems/Session3-PDF.txt
 technical/government/Alcohol_Problems/DraftRecom-PDF.txt
 technical/government/Alcohol_Problems/Session4-PDF.txt
 ```
-In this example, I utilize the find '-mtime' command which returns files modified within the number of days specified. Specifically, this command returns all of the files within `technical/government/Alcohol_Problems` that have been modified within 100 days. This command is useful to see which files have been changed recently, or in a given amount of time.
+In this example, I utilize the find `-mtime` command which returns files modified within the number of days specified. Specifically, this command returns all of the files within `technical/government/Alcohol_Problems` that have been modified within 100 days. This command is useful to see which files have been changed recently, or in a given amount of time.
 
 Example 2:
 ```
@@ -127,7 +127,7 @@ technical/911report/chapter-12.txt
 technical/911report/chapter-10.txt
 technical/911report/chapter-11.txt
 ```
-In this example, I utilize the find '-mtime' command which returns files modified within the number of days specified. Specifically, this command returns all of the files within `technical/911report` that have been modified within 60 days. This command is useful to see which files have been changed recently, or in a given amount of time.
+In this example, I utilize the find `-mtime` command which returns files modified within the number of days specified. Specifically, this command returns all of the files within `technical/911report` that have been modified within 60 days. This command is useful to see which files have been changed recently, or in a given amount of time.
 
 Source: https://tecadmin.net/linux-find-command-with-examples/
 
