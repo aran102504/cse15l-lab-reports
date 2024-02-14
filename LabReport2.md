@@ -8,7 +8,7 @@
 http://localhost:4000/add-message?s=Hello&user=angela
 <img width="1210" alt="Screenshot 2024-01-29 at 10 53 09 PM" src="https://github.com/aran102504/cse15l-lab-reports/assets/157055098/984f01af-9d01-4d6e-b34c-80d0581af112">
 
-In this example, the handler method is called, as the number of arguments in the command line was not equal to zero. The `url` is `http://localhost:4000/add-message?s=Hello&user=angela`, the String `user` is `"angela"`, and the String `message` is `Hello`. The value of list when this method is called is `"" `,  but after it becomes `angela: Hello`, which is what can be seen printed in the screenshot above. The value of `list ` changes with this request, as list concatenates and stores a new message from a user based on the arguments everytime the method is called. The value of the strings `user` and `message` both change as well, as they are both empty strings before the method is called and then change according to the corresponding argument, in this case, the strings `"angela"` and `"Hello"`, respectively.
+In this example, the `handleRequest` method is called, as the number of arguments in the command line was not equal to zero. The `url` is `http://localhost:4000/add-message?s=Hello&user=angela`, the String `user` is `"angela"`, and the String `message` is `Hello`. The value of list when this method is called is `"" `,  but after it becomes `angela: Hello`, which is what can be seen printed in the screenshot above. The value of `list ` changes with this request, as list concatenates and stores a new message from a user based on the arguments everytime the method is called. The value of the strings `user` and `message` both change as well, as they are both empty strings before the method is called and then change according to the corresponding argument, in this case, the strings `"angela"` and `"Hello"`, respectively.
 
 
 ## Example 2 using `/add-message`
@@ -16,19 +16,21 @@ In this example, the handler method is called, as the number of arguments in the
 http://localhost:4000/add-message?s=How%20are%20you&user=jpolitz
 <img width="536" alt="Screenshot 2024-01-29 at 10 57 02 PM" src="https://github.com/aran102504/cse15l-lab-reports/assets/157055098/4f404e28-2f09-4708-aaf4-129e495dd025">
 
-In this example, the handler method is called, as the number of arguments in the command line was not equal to zero. The `url` is `http://localhost:4000/add-message?s=How%20are%20you&user=jpolitz`, the String `user` is `"jpolitz"`, and the String `message` is `"How are you"`. The value of list when this method is called is `angela: Hello`, but after it is called, `"jpolitz: How are you"` is concatenated with a new line, which is what can be seen printed in the screenshot above. The value of `list ` changes with this request, as list concatenates and stores a new message from a user based on the arguments everytime the method is called. The value of the strings `user` and `message` both change as well, as they are both empty strings before the method is called and then change according to the corresponding argument, in this case, the strings `"jpolitz"` and `"How are you"`, respectively.
+In this example, the `handleRequest()`method is called, as the number of arguments in the command line was not equal to zero. The `url` is `http://localhost:4000/add-message?s=How%20are%20you&user=jpolitz`, the String `user` is `"jpolitz"`, and the String `message` is `"How are you"`. The value of list when this method is called is `angela: Hello`, but after it is called, `"jpolitz: How are you"` is concatenated with a new line, which is what can be seen printed in the screenshot above. The value of `list ` changes with this request, as list concatenates and stores a new message from a user based on the arguments everytime the method is called. The value of the strings `user` and `message` both change as well, as they are both empty strings before the method is called and then change according to the corresponding argument, in this case, the strings `"jpolitz"` and `"How are you"`, respectively.
 
 ## Part 2:
 
 Screenshot of absolute path to private key:
 
-<img width="360" alt="private key ss" src="https://github.com/aran102504/cse15l-lab-reports/assets/157055098/9173947b-c525-4e45-bdda-7db40890755c">
+<img width="404" alt="Screenshot 2024-02-13 at 6 20 48 PM" src="https://github.com/aran102504/cse15l-lab-reports/assets/157055098/82f5ab5b-cf8f-4f2c-b488-f55012e0c7a4">
+
 
 
 
 Screenshot of absolute path to public key:
 
-<img width="614" alt="publickeyss" src="https://github.com/aran102504/cse15l-lab-reports/assets/157055098/67a42c86-56e0-484e-943a-41a0d7da791b">
+<img width="565" alt="Screenshot 2024-02-13 at 6 13 39 PM" src="https://github.com/aran102504/cse15l-lab-reports/assets/157055098/3cb030d1-76b7-4199-990e-db460a6c76ca">
+
 
 
 
