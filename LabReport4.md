@@ -42,11 +42,11 @@ I reran the tests with the same `bash` command. I used the output to verify that
 
 ## Step 9: 
 
-<img width="469" alt="Screenshot 2024-02-26 at 12 46 06 PM" src="https://github.com/aran102504/cse15l-lab-reports/assets/157055098/564e793c-e36f-4a80-8bb8-69f0b23a84fd">
-<img width="656" alt="Screenshot 2024-02-26 at 12 46 00 PM" src="https://github.com/aran102504/cse15l-lab-reports/assets/157055098/120cd85a-dfec-4df7-a320-8ca898165e6f">
+<img width="669" alt="Screenshot 2024-03-10 at 10 29 44 PM" src="https://github.com/aran102504/cse15l-lab-reports/assets/157055098/045c1c46-3aa9-46d8-8cbe-05839bd203a7">
 
-I then committed and pushed my changes to my GitHub account with the commit message `"Lab Report"`. <br>
-**Keys Pressed:**`git commit -a` `Lab Report` `:w` `:q` <br>
-**Command:**`git commit -a`
+
+I then committed and pushed my changes to my GitHub account with the commit message `"Lab Report 4 - vim"`. <br>
+**Keys Pressed:** `git add ListExamples.java` `<enter>` `git commit -m "Lab Report 4 - vim"` `&&``git push origin main` `<enter>` <br>
+**Command:**`git add ListExamples.java` and then `git commit -m "Lab Report 4 - vim"``&&``git push origin main`
 
 
