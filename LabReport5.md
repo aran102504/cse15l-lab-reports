@@ -67,7 +67,7 @@ File and Directory Structure: `ListExamples.java` is located in the directory na
 
 Contents of `ListExamples.java` BEFORE fixing bug: 
 ```
-mport java.util.ArrayList;
+import java.util.ArrayList;
 import java.util.List;
 
 interface StringChecker { boolean checkString(String s); }
