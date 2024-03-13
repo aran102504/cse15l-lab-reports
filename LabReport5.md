@@ -63,7 +63,7 @@ I followed your suggestions with the print statements in the merge method and th
 It looks like the merge method is incorrectly adding elements from `list1` when they are supposed to be added from `list2`. This might be causing the issue with the merged list,as it can be seen how the IndexOutOfBoundsException is probably caused by the `index2` counter being incremented even though we are not actually going through elements in `list2`.
 
 ## Set Up Details
-File and Directory Structure: `ListExamples.java` is located in the directory named `lab7`. This Java file contains the `merge` method and the added `main` method used to help debug in the scenario above. There also is a bash script `test.sh` that was originally run by the student which brought notice to the bug in the merge method, as the tests for it were failing. 
+File and Directory Structure: `ListExamples.java` is located in the directory named `lab7`. This Java file contains the `merge` method and the added `main` method used to help debug in the scenario above. There also is a bash script `test.sh` that was originally run by the student located in the `lab7` directory which brought notice to the bug in the merge method, as the tests for it were failing. 
 
 Contents of `ListExamples.java` BEFORE fixing bug: 
 ```
